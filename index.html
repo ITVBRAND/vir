@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Все индустриальные решения</title>
+</head>
+<body>
+    <!--Header-->
+
+    <header class="header__static">
+        <div class="container">
+            <div class="header__static-top">
+                <a href="/">
+                    <img src="images/logo.svg" alt="logo" class="header__logo">
+                </a>
+                <div class="header__static-contact">
+                    <a href="mailto:hello@vir.ru" class="header__link static__contact-link">
+                        hello@vir.ru
+                    </a>
+                    <a href="tel:+79185780884" class="header__link static__contact-link">
+                        +7 (989) 538-56-70
+                    </a>
+                    <button class="btn__yellow" id="openFormBtn">
+                        Оставить заявку
+                    </button>
+                </div>
+            </div>
+            <div class="header__static-center">
+                <a href="pages/catalog.html" class="btn__catalog">
+                    Каталог
+                </a>
+                <nav class="header__static-nav">
+                    <a href="#services" class="header__link static__nav-link">
+                        Услуги
+                    </a>
+                    <a href="pages/about.html" class="header__link static__nav-link">
+                        О компании
+                    </a>
+                    <a href="pages/contact.html" class="header__link static__nav-link">
+                        Контакты
+                    </a>
+                </nav>
+            </div>
+            <nav class="header__static-bottom">
+                <a href="pages/catalog.html" class="header__link static__nav-link">
+                    Токарное оборудование
+                </a>
+                <a href="pages/catalog.html" class="header__link static__nav-link">
+                    Фрезерное оборудование
+                </a>
+                <a href="pages/catalog.html" class="header__link static__nav-link">
+                    Оборудование для обработки проката
+                </a>
+                <a href="pages/catalog.html" class="header__link static__nav-link">
+                    Гидравлическое оборудование
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <header class="header__fixed">
+        <div class="container">
+            <div class="header__fixed-wrap">
+                <div class="header__fixed-wrap">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="logo" class="header__logo-fixed">
+                    </a>
+                    <a href="pages/catalog.html" class="btn__catalog">
+                        Каталог
+                    </a>
+                </div>
+                <nav class="header__static-nav">
+                    <a href="#services" class="header__link header__static-link">
+                        Услуги
+                    </a>
+                    <a href="pages/about.html" class="header__link header__static-link">
+                        О компании
+                    </a>
+                    <a href="pages/contact.html" class="header__link header__static-link">
+                        Контакты
+                    </a>
+                </nav>
+                <div class="header__static-contact header__fixed-contact">
+                    <a href="mailto:hello@vir.ru" class="header__link header__fixed-link">
+                        hello@vir.ru
+                    </a>
+                    <a href="tel:+79185780884" class="header__link header__fixed-link">
+                        +7 (989) 538-56-70
+                    </a>
+                    <button class="btn__yellow header__fixed-btn" id="openFormBtnFixed">
+                        Оставить заявку
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header__mobile">
+        <a href="/">
+            <img src="images/logo.svg" alt="logo" class="header__logo">
+        </a>
+        <button class="header__burger-btn">
+            <span class="burger__btn-line"></span>
+            <span class="burger__btn-line"></span>
+            <span class="burger__btn-line"></span>
+        </button>
+        <nav class="header__menu">
+            <button class="header__close-btn">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_16_7302)">
+                        <path d="M15.4592 3.1515L10.6113 7.99992L15.4592 12.8481C16.1803 13.5695 16.1803 14.738 15.4592 15.4594C15.0989 15.8197 14.6265 16 14.1544 16C13.6814 16 13.209 15.82 12.849 15.4594L8.00004 10.6107L3.15143 15.4594C2.79118 15.8197 2.31876 16 1.8462 16C1.37378 16 0.901677 15.8199 0.541103 15.4594C-0.18 14.7383 -0.18 13.5697 0.541103 12.8481L5.38888 7.99987L0.540827 3.1515C-0.180276 2.43039 -0.180276 1.26158 0.540827 0.540475C1.26179 -0.180077 2.42992 -0.180077 3.15116 0.540475L7.99999 5.3889L12.8485 0.540475C13.5698 -0.180077 14.7381 -0.180077 15.4589 0.540475C16.1803 1.26158 16.1803 2.43039 15.4592 3.1515Z" fill="#CFD0D2" fill-opacity="0.25"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clipTwo">
+                            <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </button>
+            <div class="header__menu-content">
+                <div class="header__menu-header">
+                    <h3 class="header__menu-heading">Каталог</h3>
+                </div>
+                <div class="header__menu-catalog">
+                    <a href="pages/catalog.html" class="header__menu-link">
+                        Токарное оборудование
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="pages/catalog.html" class="header__menu-link">
+                        Фрезерное оборудование
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="pages/catalog.html" class="header__menu-link">
+                        Оборудование для обработки проката
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="pages/catalog.html" class="header__menu-link">
+                        Гидравлическое оборудование
+                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="header__menu-nav">
+                    <a href="#services" class="header__link">
+                        Услуги
+                    </a>
+                    <a href="pages/about.html" class="header__link">
+                        О компании
+                    </a>
+                    <a href="pages/contact.html" class="header__link">
+                        Контакты
+                    </a>
+                </nav>
+                <div class="header__menu-contact">
+                    <a href="mailto:hello@vir.ru" class="header__link">
+                        hello@vir.ru
+                    </a>
+                    <a href="tel:+79185780884" class="header__link">
+                        +7 (989) 538-56-70
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="backdrop" id="backdrop"></div>
+
+    <div class="form-popup" id="formPopup">
+        <h2>Оставить заявку</h2>
+        <form class="form__popup">
+            <label for="companyName">Ваша компания:</label>
+            <input class="form__input" type="text" id="companyName" name="companyName" placeholder="Ваша компания" required>
+
+            <label for="email">E-mail:</label>
+            <input class="form__input" type="email" id="email" name="email" placeholder="E-mail" required>
+
+            <label for="phone">Номер телефона:</label>
+            <input class="form__input" type="tel" id="phone" name="phone" placeholder="Номер телефона" required>
+
+            <p class="form__popup-text">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с <a class="form__popup-text form__popup-link" href="http://vk.com" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>.</p>
+
+            <div class="form__popup-wrap">
+                <button class="btn__yellow form__btn-popup" type="submit">
+                    Отправить
+                </button>
+            </div>
+        </form>
+        <button class="close-btn" id="closeFormBtn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_16_7302)">
+                    <path d="M15.4592 3.1515L10.6113 7.99992L15.4592 12.8481C16.1803 13.5695 16.1803 14.738 15.4592 15.4594C15.0989 15.8197 14.6265 16 14.1544 16C13.6814 16 13.209 15.82 12.849 15.4594L8.00004 10.6107L3.15143 15.4594C2.79118 15.8197 2.31876 16 1.8462 16C1.37378 16 0.901677 15.8199 0.541103 15.4594C-0.18 14.7383 -0.18 13.5697 0.541103 12.8481L5.38888 7.99987L0.540827 3.1515C-0.180276 2.43039 -0.180276 1.26158 0.540827 0.540475C1.26179 -0.180077 2.42992 -0.180077 3.15116 0.540475L7.99999 5.3889L12.8485 0.540475C13.5698 -0.180077 14.7381 -0.180077 15.4589 0.540475C16.1803 1.26158 16.1803 2.43039 15.4592 3.1515Z" fill="#858FA4" fill-opacity="0.25"/>
+                </g>
+                <defs>
+                    <clipPath id="clipOne">
+                        <rect width="16" height="16" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+    </div>
+
+    <!--Header-->
+
+    <!--content-->
+    
+    <main class="main">
+        <div class="section__banner">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="container">
+                            <article class="slide__content">
+                                <h3 class="slide__subtitle">
+                                    подбор и поставка
+                                </h3>
+                                <h2 class="slide__title">
+                                    производственного
+                                    оборудования
+                                </h2>
+                                <p class="slide__text">
+                                    До 25% экономия на станки от лидирующих<br>производителей из КНР
+                                </p>
+                                <a href="/pages/catalog.html" class="slide__link">
+                                    Узнать больше
+                                </a>
+                            </article>
+                        </div>
+                        <img class="slide__bg" src="images/banner-one.webp" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <div class="container">
+                            <article class="slide__content">
+                                <h3 class="slide__subtitle">
+                                    подбор и поставка
+                                </h3>
+                                <h2 class="slide__title">
+                                    производственного
+                                    оборудования
+                                </h2>
+                                <p class="slide__text">
+                                    До 25% экономия на станки от лидирующих<br>производителей из КНР
+                                </p>
+                                <a href="/pages/catalog.html" class="slide__link">
+                                    Узнать больше
+                                </a>
+                            </article>
+                        </div>
+                        <img class="slide__bg" src="images/banner-one.webp" alt="Slide 1">
+                    </div>
+                </div>
+                <button class="slider__prev">
+                    <svg class="arrow-rolate" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="slider__next">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </button>
+            </div>        
+        </div>
+        <div class="container">
+            <section class="section">
+                <h2 class="section__title">
+                    Токарное оборудование
+                </h2>
+                <div class="category">
+                    <a href="/pages/catalog.html" class="category__link">
+                        <article class="category__item category__item-big">
+                            <h3 class="category__item-title">
+                                Многофункциональные токарно фрезерные обрабатывающие центры
+                            </h3>
+                            <img src="images/category/item_one.webp" alt="bg" class="category__item-bg category__item-big_bg">
+                            <div class="category__item-btn category__item-btn_black">
+                                <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </article>
+                    </a>
+                    <div class="category__list">
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item">
+                                <h3 class="category__item-title">
+                                    Токарно-карусельные станки с ЧПУ
+                                </h3>
+                                <img src="images/category/item_two.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item">
+                                <h3 class="category__item-title">
+                                    Токарные автоматы с ЧПУ
+                                </h3>
+                                <img src="images/category/item_three.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item">
+                                <h3 class="category__item-title">
+                                    Токарные станки с ЧПУ
+                                </h3>
+                                <img src="images/category/item_four.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item">
+                                <h3 class="category__item-title">
+                                    Вертикальные токарные станки с ЧПУ
+                                </h3>
+                                <img src="images/category/item_five.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+                <a href="/pages/catalog.html" class="section__btn">
+                    Все категории
+                </a>
+            </section>
+            <section class="section">
+                <h2 class="section__title">
+                    Фрезерное оборудование
+                </h2>
+                <div class="category">
+                    <div class="category__list category__list-two">
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item category__item-two">
+                                <h3 class="category__item-title">
+                                    Вертикально-фрезерные станки
+                                </h3>
+                                <img src="images/category/item_six.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item category__item-two">
+                                <h3 class="category__item-title">
+                                    Горизонтальные обрабатывающие центры
+                                </h3>
+                                <img src="images/category/item_eight.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item category__item-two">
+                                <h3 class="category__item-title">
+                                    Горизонтально фрезерные станки
+                                </h3>
+                                <img src="images/category/item_nine.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_yellow">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="/pages/catalog.html" class="category__link">
+                            <article class="category__item category__item-two category__item-yellow">
+                                <h3 class="category__item-title">
+                                    Портальные обрабатывающие центры
+                                </h3>
+                                <img src="images/category/item_ten.webp" alt="bg" class="category__item-bg">
+                                <div class="category__item-btn category__item-btn_black">
+                                    <svg class="category__item-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#FFDF43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+                <a href="/pages/catalog.html" class="section__btn">
+                    Все категории
+                </a>
+            </section>
+            <section class="section section__brand">
+                <h2 class="section__title">
+                    Производители с Мировым Именем
+                </h2>
+                <p class="section__text">
+                    Мы сотрудничаем с ведущими производителями индустриального оборудования, чьи станки завоевали мировое признание. Каждый из них предоставляет инновационные решения, отличное качество и надежность.
+                </p>
+                <div class="brand__list">
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_one.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_two.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_three.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_four.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_five.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_six.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_seven.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_eight.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_nine.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_ten.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_twenty-one.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_twenty-six.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_twenty-three.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_twenty-four.svg" alt="brand">
+                    </div>
+                    <div class="brand__item">
+                        <img class="brand__img" src="images/brand_twenty-five.svg" alt="brand">
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+        <section class="section section__about">
+            <div class="container">
+                <div class="section__about-wrap">
+                    <article class="section__about-article">
+                        <strong class="section__about-subtitle">
+                            Наша компания
+                        </strong>
+                        <h2 class="section__about-title">
+                            ООО «ВСЕ ИНДУСТРИАЛЬНЫЕ РЕШЕНИЯ»
+                        </h2>
+                        <p class="text">
+                            Мы понимаем трудности, с которыми предприятия сталкиваются при закупке через дилеров, и готовы предложить Вам новый уровень удобства и эффективности. А путешествие в дебри Китая для поиска производителя со сложными маршрутами через таможенные и бюрократические лабиринты мы с полной готовностью и ответственностью берем на себя.
+                        </p>
+                    </article>
+                    <div class="section__about-list">
+                        <article class="section__about-item">
+                            <img class="section__about-img" src="images/rubl.svg" alt="icon">
+                            <h3 class="section__about-heading">
+                                Приятная цена
+                            </h3>
+                            <p class="section__about-text">
+                                Доступные цены на рынке, выгодное решение
+                            </p>
+                        </article>
+                        <div class="section__about-line"></div>
+                        <article class="section__about-item">
+                            <img class="section__about-img" src="images/shield.svg" alt="icon">
+                            <h3 class="section__about-heading">
+                                Приятная цена
+                            </h3>
+                            <p class="section__about-text">
+                                Доступные цены на рынке, выгодное решение
+                            </p>
+                        </article>
+                        <div class="section__about-line"></div>
+                        <article class="section__about-item">
+                            <img class="section__about-img" src="images/settings.svg" alt="icon">
+                            <h3 class="section__about-heading">
+                                Приятная цена
+                            </h3>
+                            <p class="section__about-text">
+                                Доступные цены на рынке, выгодное решение
+                            </p>
+                        </article>
+                        <div class="section__about-line"></div>
+                        <article class="section__about-item">
+                            <img class="section__about-img" src="images/stars.svg" alt="icon">
+                            <h3 class="section__about-heading">
+                                Приятная цена
+                            </h3>
+                            <p class="section__about-text">
+                                Доступные цены на рынке, выгодное решение
+                            </p>
+                        </article>
+                    </div>
+                    <a href="#" class="section__btn">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="container" id="services">
+            <section class="section section__services">
+                <article class="section__services-article">
+                    <h2 class="section__title">
+                        Услуги
+                    </h2>
+                    <p class="section__text">
+                        Наши дополнительные возможности не ограничиваются только поставкой оборудования. Мы предоставляем вам широкий спектр решений, чтобы сделать ваш бизнес еще более успешным.
+                    </p>
+                </article>
+                <div class="section__services-list">
+                    <article class="section__services-item section__services-one">
+                        <h3 class="section__services-title">
+                            Поставка оригиналов, копий и аналогов из КНР.
+                        </h3>
+                        <p class="text">
+                            Мы предлагаем вам выбор — оригинальные, лицензионные копии или более экономичные аналоги от китайских производителей. Это дает вам гибкость в управлении затратами без ущерба для качества.
+                        </p>
+                        <button class="open-form-btn">
+                            Оставить заявку
+                            <svg class="open-form-btn-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </article>
+                    <article class="section__services-item section__services-two">
+                        <h3 class="section__services-title">
+                            Полное сопровождение ВЭД
+                        </h3>
+                        <p class="text">
+                            Наш опыт и квалификация позволяют оперативно выполнить заказы в согласованные сроки без рисков для вас. Мы обеспечиваем полное сопровождение внешнеэкономической деятельности, чтобы вы могли сосредоточиться на своем бизнесе.
+                        </p>
+                        <button class="open-form-btn">
+                            Оставить заявку
+                            <svg class="open-form-btn-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </article>
+                    <article class="section__services-item section__services-three">
+                        <h3 class="section__services-title">
+                            Производственный аутсорсинг в КНР (OEM, ODM)
+                        </h3>
+                        <p class="text">
+                            Полная цепочка запуска производства в Китае, начиная с поиска надежного поставщика, заканчивая доставкой продукта ‘до двери’ заказчика. Воспользуйтесь опытом и квалификацией наших экспертов для оптимизации вашего производства.
+                        </p>
+                        <button class="open-form-btn">
+                            Оставить заявку
+                            <svg class="open-form-btn-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </article>
+                    <article class="section__services-item section__services-four">
+                        <h3 class="section__services-title">
+                            Логистические международные решения
+                        </h3>
+                        <p class="text">
+                            Мы предоставляем широкий спектр логистических услуг, включая авиа, морские, железнодорожные и автомобильные перевозки. Работаем напрямую с китайскими логистическими партнерами для обеспечения эффективной доставки. Ваш груз в надежных руках с нашей командой экспертов.
+                        </p>
+                        <button class="open-form-btn">
+                            Оставить заявку
+                            <svg class="open-form-btn-arrow" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.5H14M14 6.5L8.57534 1M14 6.5L8.57534 12" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <section class="section section__contact">
+            <div class="container">
+                <div class="section__contact-wrap">
+                    <div class="section__contact-info">
+                        <h2 class="section__contact-title">
+                            Оставлись вопросы?
+                        </h2>
+                        <p class="section__contact-text">
+                            Пишите, звоните или оставьте ваши контакты, и наш специалист свяжется с вами в ближайшее время!
+                        </p>
+                        <a href="#" class="section__contact-link">
+                            Телефон: +7 (495) 123-45-67
+                        </a>
+                        <a href="#" class="section__contact-link">
+                            Email: info@example.com
+                        </a>
+                        <div class="section__contact-social">
+                            <a href="#" class="contact__link-social">
+                                <svg class="section__contact-icon" width="24" height="24" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Telegram" d="M1.65 9.58C1.65 9.58 13.59 4.75 17.73 3.05C19.32 2.37 24.71 0.19 24.71 0.19C24.71 0.19 27.19 -0.76 26.98 1.55C26.91 2.5 26.36 5.83 25.81 9.44C24.98 14.54 24.08 20.12 24.08 20.12C24.08 20.12 23.95 21.68 22.77 21.96C21.6 22.23 19.67 21 19.32 20.73C19.04 20.53 14.14 17.47 12.35 15.97C11.87 15.56 11.31 14.75 12.42 13.79C14.9 11.55 17.87 8.76 19.67 6.99C20.49 6.17 21.32 4.27 17.87 6.58C12.97 9.92 8.14 13.04 8.14 13.04C8.14 13.04 7.03 13.73 4.96 13.11C2.89 12.5 0.48 11.68 0.48 11.68C0.48 11.68 -1.18 10.66 1.65 9.58Z" fill="#222225" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="contact__link-social">
+                                <svg class="section__contact-icon" width="24" height="24" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Whatsapp" d="M13.4717 -0.970703C6.04297 -0.970703 0 5.07227 0 12.501C0 15.4463 0.950195 18.1787 2.56543 20.3965L0.886719 25.4014L6.06641 23.7471C8.19629 25.1562 10.7393 25.9717 13.4795 25.9717C20.9072 25.9717 26.9502 19.9287 26.9502 12.501C26.9502 5.07227 20.9072 -0.970703 13.4795 -0.970703L13.4717 -0.970703L13.4717 -0.970703ZM8.85547 5.20703C9.25098 5.22266 9.44922 5.24609 9.70996 5.87207C10.0352 6.65625 10.8271 8.58789 10.9219 8.78613C11.0166 8.98438 11.1123 9.25391 10.9775 9.51465C10.8506 9.78418 10.7393 9.90332 10.542 10.1328C10.3438 10.3623 10.1533 10.5361 9.95605 10.7822C9.95215 10.7861 9.94922 10.79 9.94629 10.793C9.7666 11.0039 9.57129 11.2324 9.79785 11.6221C10.0273 12.0098 10.8184 13.3008 11.9834 14.3379C13.4883 15.6758 14.707 16.1045 15.1436 16.2861C15.4678 16.4209 15.8555 16.3896 16.0938 16.1357C16.3945 15.8115 16.7666 15.2725 17.1465 14.7422C17.416 14.3613 17.7568 14.3145 18.1133 14.4482C18.4775 14.5752 20.4014 15.5254 20.7979 15.7236C21.1934 15.9219 21.4551 16.0166 21.5498 16.1836C21.6455 16.3496 21.6455 17.1338 21.3203 18.0527C20.9961 18.9707 19.7051 19.7314 18.6748 19.9531C17.9707 20.1035 17.0518 20.2227 13.9551 18.9395C9.99512 17.2998 7.44531 13.2764 7.24707 13.0156C7.05762 12.7539 5.64746 10.8848 5.64746 8.95215C5.64746 7.02051 6.62988 6.07812 7.02539 5.67383C7.35059 5.3418 7.88867 5.19141 8.40332 5.19141C8.55371 5.19141 8.70508 5.19727 8.85547 5.20703Z" clip-rule="evenodd" fill="#222225" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section__contact-feedback">
+                        <form class="form__popup form__contact">
+                            <input class="form__input form__contact-input" type="text" id="companyName" name="companyName" placeholder="Ваша компания" required>
+                            <input class="form__input form__contact-input" type="email" id="email" name="email" placeholder="E-mail" required>
+                            <input class="form__input form__contact-input" type="tel" id="phone" name="phone" placeholder="Номер телефона" required>
+                            <p class="form__popup-text form__contact-text">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с <a class="form__popup-text form__popup-link" href="http://vk.com" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>.</p>
+                            <button class="btn__yellow form__btn-popup" type="submit">
+                                Связаться с нами
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--content-->
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__list">
+                    <h4 class="footer__heading">
+                        Каталог
+                    </h4>
+                    <nav class="footer__nav">
+                        <a href="#" class="footer__link">
+                            Токарное оборудование
+                        </a>
+                        <a href="#" class="footer__link">
+                            Фрезерное оборудование
+                        </a>
+                        <a href="#" class="footer__link">
+                            Оборудование для обработки проката
+                        </a>
+                        <a href="#" class="footer__link">
+                            Гидравлическое оборудование
+                        </a>
+                    </nav>
+                </div>
+                <div class="footer__list">
+                    <h4 class="footer__heading">
+                        Информация
+                    </h4>
+                    <nav class="footer__nav">
+                        <a href="#" class="footer__link">
+                            О компании
+                        </a>
+                        <a href="#" class="footer__link">
+                            Услуги
+                        </a>
+                        <a href="#" class="footer__link">
+                            Контакты
+                        </a>
+                    </nav>
+                </div>
+                <div class="footer__list">
+                    <div class="footer__list-wrap">
+                        <a href="tel:+79185780884" class="footer__link">
+                            +7 (989) 538-56-70 для Москвы
+                        </a>
+                        <a href="tel:+79185780884" class="footer__link">
+                            +7 (989) 538-56-70 для Китая
+                        </a>
+                    </div>
+                    <div class="footer__list-wrap">
+                        <a href="mailto:hello@vir.ru" class="footer__link">
+                            hello@vir.ru
+                        </a>
+                        <a href="mailto:hello@vir.ru" class="footer__link">
+                            Написать
+                        </a>
+                    </div>
+                    <div class="footer__list-wrap">
+                        <a href="mailto:hello@vir.ru" class="footer__link link-yellow">
+                            Политика конфиденциальности
+                        </a>
+                        <a href="mailto:hello@vir.ru" class="footer__link link-yellow">
+                            Публичная оферта
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <a href="/">
+                    <img src="images/logo.svg" alt="logo" class="header__logo">
+                </a>
+                <p class="footer__copyright-text">
+                    © Все индустриальные решения. 2024 Все права защищены
+                </p>
+                <a href="https://vbrand.ru/" class="footer__copyright-text" rel="nofollow" target="_blank">
+                    Разработано маркетинговым-агенством V-Brand
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer-->
+
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
